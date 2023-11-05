@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content=" width=device-width,
+    initial-scale=1.0">
+    <title>document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            curso: pointer;
+            display: block;
+        }
+       </style>
+</head>
+
+<body>
+  
+    <form action="#" method="get" 
+  target="_blank" autocomplete="off">
+   <p>o meu formulario</p>
+   <P>
+    <label for="nome">nome</label>
+     <input type="text" id="name" 
+     name="nome" placeholder="seu nome">
+   </P>
+
+   <P>
+    <label for="dev1">sou um dev</label>
+     <input type="checkbox" id="dev1" name="dev1"
+     value="sim"><br>
+    <label for="dev2">sou um dev</label>
+     <input type="checkbox" id="dev2" name="dev2"
+     value="sim"><br>
+    <label for="dev3">sou um ev</label>
+     <input type="checkbox" id="dev3" name="dev3"
+     value="sim">
+   </P>
+
+   <P>
+    GÊNERO: <br>
+    <label for="feminino">feminino</label>
+     <input type="radio" id="feminino" name="genero"
+     value="feminino"><br>
+    <label for="masculino">masculino</label>
+     <input type="radio" id="masculino" name="genero"
+     value="masculino"><br>
+    <label for="outro ou outra">outro ou outra</label>
+     <input type="radio" id="outro ou outra" name="genero"
+     value="outro ou outra">
+   </P>
+
+   <P>
+    <label for="date">date</label>
+     <input type="date" id="nome" 
+     name="date">
+   </P>
+
+   <P>
+    <label for="time">date</label>
+     <input type="time" id="time" 
+     name="time" value="23:00:01">
+   </P>
+
+   <P>
+    <label for="cor">cor preferida:</label>
+     <input type="color" id="cor" 
+     name="cor" value="#ff0000">
+   </P>
+
+   <P>
+    <label for="email">seu e-mail:</label>
+     <input type="email" id="email" 
+     name="email"
+     placeholder="ex: email@email.com">
+  </P>
+
+  <P>
+    <label for="file">sua foto:</label>
+     <input type="file" id="file" 
+     name="file" accept=".png, .svg, images/*" multiple>
+  </P>
+
+  <P>
+    <label for="number">Number</label>
+     <input type="number" id="number" 
+     name="number"
+     min="10" max="50" step="5">
+  </P>
+
+   <P>
+    <label for="password">sua senha:</label>
+     <input type="password" id="password" 
+     name="password"
+     placeholder="digite sua senha">
+  </P>
+
+  <P>
+    <label for="range">rãnge:</label>
+     <input type="range" id="range" 
+     name="range" min="0" max="10" step="2">
+
+     <datalist>
+        <option value=""></option>
+     </datalist>
+  </P>
+
+  <P>
+    <label for="url">sua url:</label>
+     <input type="url" id="urld" 
+     name="url"
+     placeholder="url">
+  </P>
+
+  <P>
+    <label for="search">sua url:</label>
+     <input type="search" id="search" 
+     name="search"
+     placeholder="search">
+  </P>
+
+  <p>
+  <label for="select">selecione alguma opção:</label>
+  <select id="select" name="select">
+    <optgroup label="teste">
+    <option value="qualquer 1" label=" 1 ">
+    <option value="qualquer 2" label=" 2 "
+    disabled>
+    <option value="qualquer 3" label=" 3 "
+    select>
+    <option value="qualquer 4" label=" 4 ">
+    </optgroup>
+    </select>
+  </p>
+
+  <P>
+    <label for="textare">sua url:</label>
+     <textarea name="textare" id="textare"
+     rows="3" cols="9">
+    </textarea>
+  </P>
+
+
+
+
+
+
+     <p>
+    <button type="reset">reset</button>
+    <button type="submit">enviar</button>
+   </p>
+
+  </form>
+
+</body>
+
+</html>
